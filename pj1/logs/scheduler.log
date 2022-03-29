@@ -1,0 +1,46 @@
+####################  ####################
+# 参数设置
+    d_hidden = 50
+    learning_rate = 0.01
+    mini_batch_size = 16
+    weight_decay = 0.001
+    epochs = 10
+
+# None
+Epoch 1, valid loss  0.22556, accuracy 93.50000 %.
+Epoch 2, valid loss  0.17739, accuracy 94.76667 %.
+Epoch 3, valid loss  0.15593, accuracy 95.55000 %.
+Epoch 4, valid loss  0.13668, accuracy 96.10000 %.
+Epoch 5, valid loss  0.13218, accuracy 96.20000 %.
+Epoch 6, valid loss  0.11670, accuracy 96.78333 %.
+Epoch 7, valid loss  0.10869, accuracy 96.83333 %.
+Epoch 8, valid loss  0.10442, accuracy 96.80000 %.
+Epoch 9, valid loss  0.10313, accuracy 96.88333 %.
+Epoch 10, valid loss  0.10267, accuracy 96.95000 %.
+Test Accuracy: 97.0700%
+
+# StepLR_300_0.99
+Epoch 1, valid loss  0.22636, accuracy 93.51667 %.
+Epoch 2, valid loss  0.17970, accuracy 95.01667 %.
+Epoch 3, valid loss  0.15787, accuracy 95.61667 %.
+Epoch 4, valid loss  0.14649, accuracy 95.76667 %.
+Epoch 5, valid loss  0.13433, accuracy 96.26667 %.
+Epoch 6, valid loss  0.12866, accuracy 96.31667 %.
+Epoch 7, valid loss  0.12496, accuracy 96.46667 %.
+Epoch 8, valid loss  0.11959, accuracy 96.61667 %.
+Epoch 9, valid loss  0.11809, accuracy 96.60000 %.
+Epoch 10, valid loss  0.11428, accuracy 96.63333 %.
+Test Accuracy: 96.7700%.
+
+# StepLR_500_0.99
+Epoch 1, valid loss  0.22471, accuracy 93.38333 %.
+Epoch 2, valid loss  0.17262, accuracy 95.06667 %.
+Epoch 3, valid loss  0.15014, accuracy 95.80000 %.
+Epoch 4, valid loss  0.14079, accuracy 96.11667 %.
+Epoch 5, valid loss  0.12923, accuracy 96.30000 %.
+Epoch 6, valid loss  0.12244, accuracy 96.55000 %.
+Epoch 7, valid loss  0.11503, accuracy 96.76667 %.
+Epoch 8, valid loss  0.11272, accuracy 96.71667 %.
+Epoch 9, valid loss  0.10878, accuracy 96.73333 %.
+Epoch 10, valid loss  0.10957, accuracy 96.71667 %.
+Test Accuracy: 96.8200%.

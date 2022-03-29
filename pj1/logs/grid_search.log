@@ -1,0 +1,243 @@
+##################### wd #####################
+(base) ➜  pj1  cd /Users/frankshi/Projects/PJ-NN/pj1 ; /usr/bin/env /Users/frankshi/miniconda3/bin/python /Users/frankshi/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 50081 -- /Users/frankshi/Projects/PJ-NN/pj1/main.py 
+33.318421449829934 78.56748998339798
+33.791224489795916 79.17246322228644
+[grid search] wd: 0
+Epoch 1, accuracy 62.1 %.
+Epoch 2, accuracy 74.92999999999999 %.
+Epoch 3, accuracy 80.07 %.
+Epoch 4, accuracy 82.82000000000001 %.
+Epoch 5, accuracy 84.54 %.
+Epoch 6, accuracy 85.68 %.
+Epoch 7, accuracy 86.42999999999999 %.
+Epoch 8, accuracy 87.18 %.
+Epoch 9, accuracy 87.78 %.
+Epoch 10, accuracy 88.16000000000001 %.
+Test Accuracy: 88.16000000000001%.
+/Users/frankshi/miniconda3/lib/python3.8/site-packages/numpy/core/_asarray.py:136: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order, subok=True)
+[grid search] wd: 0.001
+Epoch 1, accuracy 61.1 %.
+Epoch 2, accuracy 75.79 %.
+Epoch 3, accuracy 81.36 %.
+Epoch 4, accuracy 83.96000000000001 %.
+Epoch 5, accuracy 85.3 %.
+Epoch 6, accuracy 86.28 %.
+Epoch 7, accuracy 87.01 %.
+Epoch 8, accuracy 87.53999999999999 %.
+Epoch 9, accuracy 88.01 %.
+Epoch 10, accuracy 88.31 %.
+Test Accuracy: 88.31%.
+[grid search] wd: 0.01
+Epoch 1, accuracy 54.44 %.
+Epoch 2, accuracy 73.25 %.
+Epoch 3, accuracy 79.60000000000001 %.
+Epoch 4, accuracy 82.43 %.
+Epoch 5, accuracy 84.04 %.
+Epoch 6, accuracy 85.09 %.
+Epoch 7, accuracy 85.87 %.
+Epoch 8, accuracy 86.72999999999999 %.
+Epoch 9, accuracy 87.37 %.
+Epoch 10, accuracy 87.79 %.
+Test Accuracy: 87.79%.
+[grid search] wd: 0.1
+Epoch 1, accuracy 52.449999999999996 %.
+Epoch 2, accuracy 69.06 %.
+Epoch 3, accuracy 77.4 %.
+Epoch 4, accuracy 81.93 %.
+Epoch 5, accuracy 83.91 %.
+Epoch 6, accuracy 85.07000000000001 %.
+Epoch 7, accuracy 85.87 %.
+Epoch 8, accuracy 86.6 %.
+Epoch 9, accuracy 87.25 %.
+Epoch 10, accuracy 87.56 %.
+Test Accuracy: 87.56%.
+[grid search] wd: 1
+Epoch 1, accuracy 51.580000000000005 %.
+Epoch 2, accuracy 67.83 %.
+Epoch 3, accuracy 70.92 %.
+Epoch 4, accuracy 70.48 %.
+Epoch 5, accuracy 69.75 %.
+Epoch 6, accuracy 68.14 %.
+Epoch 7, accuracy 66.53 %.
+Epoch 8, accuracy 65.83 %.
+Epoch 9, accuracy 64.84 %.
+Epoch 10, accuracy 64.03999999999999 %.
+Test Accuracy: 64.03999999999999%.
+[grid search] wd: 10
+Epoch 1, accuracy 10.32 %.
+Epoch 2, accuracy 10.32 %.
+Epoch 3, accuracy 10.32 %.
+Epoch 4, accuracy 10.32 %.
+Epoch 5, accuracy 10.32 %.
+Epoch 6, accuracy 10.32 %.
+Epoch 7, accuracy 10.32 %.
+Epoch 8, accuracy 10.32 %.
+Epoch 9, accuracy 11.5 %.
+Epoch 10, accuracy 10.100000000000001 %.
+Test Accuracy: 10.100000000000001%.
+[grid search] wd: 100
+Epoch 1, accuracy 9.82 %.
+Epoch 2, accuracy 9.82 %.
+Epoch 3, accuracy 9.82 %.
+Epoch 4, accuracy 9.82 %.
+Epoch 5, accuracy 9.82 %.
+Epoch 6, accuracy 9.82 %.
+Epoch 7, accuracy 9.82 %.
+Epoch 8, accuracy 9.82 %.
+Epoch 9, accuracy 9.82 %.
+Epoch 10, accuracy 9.82 %.
+Test Accuracy: 9.82%.
+
+##################### lr #####################
+(base) ➜  pj1  cd /Users/frankshi/Projects/PJ-NN/pj1 ; /usr/bin/env /Users/frankshi/miniconda3/bin/python /Users/frankshi/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 53339 -- /Users/frankshi/Projects/PJ-NN/pj1/main.py 
+33.318421449829934 78.56748998339798
+33.791224489795916 79.17246322228644
+[grid search] lr: 1e-05
+Epoch 1, accuracy 11.91 %.
+Epoch 2, accuracy 17.29 %.
+Epoch 3, accuracy 26.06 %.
+Epoch 4, accuracy 37.65 %.
+Epoch 5, accuracy 45.57 %.
+Epoch 6, accuracy 50.8 %.
+Epoch 7, accuracy 54.06999999999999 %.
+Epoch 8, accuracy 57.08 %.
+Epoch 9, accuracy 59.86 %.
+Epoch 10, accuracy 62.050000000000004 %.
+Test Accuracy: 62.0500%.
+/Users/frankshi/miniconda3/lib/python3.8/site-packages/numpy/core/_asarray.py:136: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order, subok=True)
+[grid search] lr: 0.0001
+Epoch 1, accuracy 60.96 %.
+Epoch 2, accuracy 75.5 %.
+Epoch 3, accuracy 81.08999999999999 %.
+Epoch 4, accuracy 83.66 %.
+Epoch 5, accuracy 84.98 %.
+Epoch 6, accuracy 85.9 %.
+Epoch 7, accuracy 86.53 %.
+Epoch 8, accuracy 87.17 %.
+Epoch 9, accuracy 87.57000000000001 %.
+Epoch 10, accuracy 88.06 %.
+Test Accuracy: 88.0600%.
+[grid search] lr: 0.001
+Epoch 1, accuracy 87.06 %.
+Epoch 2, accuracy 89.24 %.
+Epoch 3, accuracy 89.5 %.
+Epoch 4, accuracy 89.66 %.
+Epoch 5, accuracy 89.97 %.
+Epoch 6, accuracy 89.98 %.
+Epoch 7, accuracy 90.0 %.
+Epoch 8, accuracy 89.94 %.
+Epoch 9, accuracy 90.11 %.
+Epoch 10, accuracy 89.92999999999999 %.
+Test Accuracy: 89.9300%.
+[grid search] lr: 0.01
+Epoch 1, accuracy 89.39 %.
+Epoch 2, accuracy 89.09 %.
+Epoch 3, accuracy 90.2 %.
+Epoch 4, accuracy 90.14 %.
+Epoch 5, accuracy 89.81 %.
+Epoch 6, accuracy 89.57000000000001 %.
+Epoch 7, accuracy 90.31 %.
+Epoch 8, accuracy 90.05 %.
+Epoch 9, accuracy 89.9 %.
+Epoch 10, accuracy 90.03 %.
+Test Accuracy: 90.0300%.
+[grid search] lr: 0.1
+Epoch 1, accuracy 86.57000000000001 %.
+Epoch 2, accuracy 86.16 %.
+Epoch 3, accuracy 82.59 %.
+Epoch 4, accuracy 82.17 %.
+Epoch 5, accuracy 86.77 %.
+Epoch 6, accuracy 85.74000000000001 %.
+Epoch 7, accuracy 85.64 %.
+Epoch 8, accuracy 84.50999999999999 %.
+Epoch 9, accuracy 87.05000000000001 %.
+Epoch 10, accuracy 85.83 %.
+Test Accuracy: 85.8300%.
+[grid search] lr: 1
+Epoch 1, accuracy 11.35 %.
+Epoch 2, accuracy 10.280000000000001 %.
+Epoch 3, accuracy 9.74 %.
+Epoch 4, accuracy 11.35 %.
+Epoch 5, accuracy 10.280000000000001 %.
+Epoch 6, accuracy 9.8 %.
+Epoch 7, accuracy 11.35 %.
+Epoch 8, accuracy 11.35 %.
+Epoch 9, accuracy 10.280000000000001 %.
+Epoch 10, accuracy 10.09 %.
+Test Accuracy: 10.0900%.
+
+
+##################### d #####################
+(base) ➜  pj1  cd /Users/frankshi/Projects/PJ-NN/pj1 ; /usr/bin/env /Users/frankshi/miniconda3/bin/python /Users/frankshi/.vscode/extensions/ms-python.python-2022.2.1924087327/pythonFiles/lib/python/debugpy/launcher 64003 -- /Users/frankshi/Projects/PJ-NN/pj1/main.py 
+33.318421449829934 78.56748998339798
+33.791224489795916 79.17246322228644
+[grid search] d: 10
+Epoch 1, accuracy 89.21000 %.
+Epoch 2, accuracy 88.92000 %.
+Epoch 3, accuracy 89.11000 %.
+Epoch 4, accuracy 89.27000 %.
+Epoch 5, accuracy 88.91000 %.
+Epoch 6, accuracy 89.55000 %.
+Epoch 7, accuracy 89.48000 %.
+Epoch 8, accuracy 89.42000 %.
+Epoch 9, accuracy 89.64000 %.
+Epoch 10, accuracy 89.52000 %.
+Test Accuracy: 89.5200%.
+/Users/frankshi/miniconda3/lib/python3.8/site-packages/numpy/core/_asarray.py:136: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  return array(a, dtype, copy=False, order=order, subok=True)
+[grid search] d: 30
+Epoch 1, accuracy 89.93000 %.
+Epoch 2, accuracy 90.16000 %.
+Epoch 3, accuracy 89.26000 %.
+Epoch 4, accuracy 90.38000 %.
+Epoch 5, accuracy 89.88000 %.
+Epoch 6, accuracy 90.06000 %.
+Epoch 7, accuracy 89.85000 %.
+Epoch 8, accuracy 90.07000 %.
+Epoch 9, accuracy 89.36000 %.
+Epoch 10, accuracy 89.83000 %.
+Test Accuracy: 89.8300%.
+[grid search] d: 50
+Epoch 1, accuracy 88.95000 %.
+Epoch 2, accuracy 89.58000 %.
+Epoch 3, accuracy 89.92000 %.
+Epoch 4, accuracy 89.83000 %.
+Epoch 5, accuracy 89.82000 %.
+Epoch 6, accuracy 90.00000 %.
+Epoch 7, accuracy 90.21000 %.
+Epoch 8, accuracy 90.22000 %.
+Epoch 9, accuracy 90.22000 %.
+Epoch 10, accuracy 90.40000 %.
+Test Accuracy: 90.4000%.
+[grid search] d: 100
+Epoch 1, accuracy 90.20000 %.
+Epoch 2, accuracy 89.96000 %.
+Epoch 3, accuracy 90.17000 %.
+Epoch 4, accuracy 89.50000 %.
+Epoch 5, accuracy 90.24000 %.
+Epoch 6, accuracy 90.59000 %.
+Epoch 7, accuracy 89.52000 %.
+Epoch 8, accuracy 90.10000 %.
+Epoch 9, accuracy 90.34000 %.
+Epoch 10, accuracy 90.20000 %.
+Test Accuracy: 90.2000%.
+[grid search] d: 300
+Epoch 1, accuracy 90.06000 %.
+Epoch 2, accuracy 89.42000 %.
+Epoch 3, accuracy 89.41000 %.
+Epoch 4, accuracy 89.55000 %.
+Epoch 5, accuracy 90.33000 %.
+Epoch 6, accuracy 90.05000 %.
+Epoch 7, accuracy 89.67000 %.
+Epoch 8, accuracy 90.40000 %.
+Epoch 9, accuracy 89.54000 %.
+Epoch 10, accuracy 89.93000 %.
+Test Accuracy: 89.9300%.
+[grid search] d: 500
+Epoch 1, accuracy 89.44000 %.
+Epoch 2, accuracy 89.65000 %.
+Epoch 3, accuracy 89.71000 %.
+Epoch 4, accuracy 88.78000 %.
+Epoch 5, accuracy 89.71000 %.
