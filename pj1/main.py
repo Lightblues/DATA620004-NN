@@ -44,7 +44,7 @@ class Net(object):
         activation_fn="relu"
     ):
         # 输入图像为第0层
-        sizes = [784, 30, 10]
+        sizes = [784, 50, 10]
         sizes[1] = d_hidden
         self.sizes = sizes
         self.num_layers = len(sizes)
@@ -283,6 +283,21 @@ def train(modelname):
 
     net.save(modelname)
 
+def plot_weights(modelname):
+    net = Net(d_hidden, learning_rate, mini_batch_size, weight_decay, "relu")
+    net.load(modelname)
+    fig, ax = plt.subplots(1, 2, figsize=(10, 5))
+    ax = [ax]
+    weights = net.weights[1:]
+    for column in range(len(weights)):
+        # ax[0][column].imshow(weights[column][:, :50], origin="lower", vmin=0)
+        heatmap = ax[0][column].pcolor(weights[column][:, :100])
+        ax[0][column].set_title("Layer %i" % (column + 1))
+    plt.colorbar(heatmap)
+    fig.subplots_adjust(hspace=0.5)
+    # plt.show()
+    plt.savefig(f"figs/weights.png")
+
 if __name__ == "__main__":
     np.random.seed(116)
 
@@ -300,10 +315,13 @@ if __name__ == "__main__":
     # grid_search('d', values=[10, 30, 50, 100, 300, 500, 1000])
 
     # modelname = 'scheduler_None.model'
-    modelname = 'scheduler_StepLR_500_0.99.model'
+    # modelname = 'scheduler_StepLR_500_0.99.model'
+    modelname = "final_model" # scheduler_None
     
     # 训练
-    train(modelname)
+    # train(modelname)
     # 测试
-    # test_model(modelname)
+    test_model(modelname)
+
+    # plot_weights(modelname)
 
