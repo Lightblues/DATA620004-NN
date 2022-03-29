@@ -12,6 +12,12 @@ python preprocess.py
 python main.py
 ```
 
+## ref
+
+- [zhangjuefei/mentat](https://github.com/zhangjuefei/mentat)
+- [kdexd/digit-classifier](https://github.com/kdexd/digit-classifier)
+- 《神经网络与深度学习》邱锡鹏
+
 ## 作业要求
 
 至少包含以下三个代码文件/部分
