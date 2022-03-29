@@ -3,6 +3,9 @@
 ## 训练步骤
 
 ```bash
+# packages
+pip install -r requirements.txt
+
 # 下载, 预处理数据
 python preprocess.py
 # 训练/验证模型

@@ -284,12 +284,14 @@ def train(modelname):
     net.save(modelname)
 
 def plot_weights(modelname):
+    """ 可视化全连接层权重 """
     net = Net(d_hidden, learning_rate, mini_batch_size, weight_decay, "relu")
     net.load(modelname)
     fig, ax = plt.subplots(1, 2, figsize=(10, 5))
     ax = [ax]
     weights = net.weights[1:]
     for column in range(len(weights)):
+        # 第一层输入 784 太大了, 仅展示前100个
         # ax[0][column].imshow(weights[column][:, :50], origin="lower", vmin=0)
         heatmap = ax[0][column].pcolor(weights[column][:, :100])
         ax[0][column].set_title("Layer %i" % (column + 1))
