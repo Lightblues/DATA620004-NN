@@ -1,7 +1,7 @@
 
 - 采用包: <https://github.com/facebookresearch/detectron2>
 - 训练日志保存于 `logs`
-- 模型
+- 模型 <https://github.com/Lightblues/NN-pj/releases/tag/v0.0.1>
 
 ### 环境配置
 
