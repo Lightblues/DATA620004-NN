@@ -64,3 +64,14 @@ python get_boundingbox.py --config-file $CONFIG_PATH \
     --output ./output_boundingbox \
     --opts MODEL.WEIGHTS $MODEL_PATH MODEL.DEVICE cpu
 ```
+
+### 实验设置
+
+- 数据集: [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/index.html).
+    - 训练集: 2007trainval + 2012trainval
+    - 测试集: 2007test
+- batch size: 16
+- learning rate: 0.02
+- optimizer: SGD with momentum
+- loss: total loss with 4 parts: cls, box reg, rpn cls, rpn reg.
+- metric: mAP

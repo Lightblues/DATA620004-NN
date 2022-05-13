@@ -27,3 +27,15 @@ python detect.py --weights $MODEL_PATH --img 640 --conf 0.25 --source $DATA_PATH
     --save-txt --save-crop --save-conf \
     --project output_boundingbox
 ```
+
+### 实验设置
+
+- 数据集: [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/index.html).
+    - 训练集: 2007trainval + 2012trainval
+    - 测试集: 2007test
+- batch size: 16
+- learning rate: 0.01
+- optimizer: SGD with momentum
+- loss: total loss with 3 parts: cls, bbox reg, obj loss.
+- metric: mAP
+
