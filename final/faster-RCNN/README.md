@@ -14,7 +14,7 @@ export MODEL_PATH=./tools/output/model_final.pth
 
 # train
 CUDA_VISIBLE_DEVICES=3  python ./train_net.py --num-gpus 1  --config-file $CONFIG_PATH --resume \
-    MODEL.WEIGHTS "model_final_f10217.pkl" OUTPUT_DIR "./logs/v5ck"
+    MODEL.WEIGHTS "model_final_f10217.pkl" OUTPUT_DIR "./logs/v5"
 # tensorboard
 tensorboard --logdir ./output
 
