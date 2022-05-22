@@ -1,6 +1,8 @@
 #CIFAR100 vit
 ## 参数设置
 网络结构：Vision-Transformer 
+
+网络参数:
 parameter | value
 :---:|:---:
 patch_size | 8
@@ -14,7 +16,7 @@ emb_dropout |0.1
 
 训练测试集划分:cifar100-train,cifar100-test
 
-超参数设置：
+超参数设置:
 parameter | value
 :---:|:---:
 batch_size |128
