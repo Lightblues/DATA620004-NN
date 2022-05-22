@@ -27,7 +27,7 @@ lossfunction  CrossEntropyLoss
 ## 结果对比
 model| parameters_number |data augmentation|top1_error|top5_error
 :---:|:--:|:--:|:--:|:---:
-resnet50 | |cutout|0.2196|0.0589
+resnet50 |23,705,252 |cutout|0.2196|0.0589
 resnet50|- |none|0.2147|0.0553
 resnet50 |- |cutmix|0.2131|0.0557
 resnet50 | -|mixup|0.2039|0.0566
