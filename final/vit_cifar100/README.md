@@ -11,7 +11,7 @@ training without data augmentation
 ```bash
 python train.py -net vit_small -gpu
 ```
-training with data augmentation (mixup as example, mixup,cutmix available)
+training with data augmentation (mixup as example, cutout,cutmix available)
 ```bash
 python train.py -net vit_small -gpu -data_aug mixup
 ```
