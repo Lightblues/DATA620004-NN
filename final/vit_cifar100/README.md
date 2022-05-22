@@ -26,5 +26,5 @@ python test.py -net vit_small -weights path/to/vit_weights
 tensorboard --logdir='runs' --port=6006 --host=localhost
 ```
 
-##Reference
+## Reference
 ["An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale", Dosovitskiy, A., et. al, (ICLR'21)](https://openreview.net/forum?id=YicbFdNTTy)
