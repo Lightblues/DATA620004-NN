@@ -1,4 +1,4 @@
-#CIFAR100 vit
+# CIFAR100 vit
 ## 参数设置
 网络结构：Vision-Transformer 
 
