@@ -2,7 +2,7 @@
 
 Vision-Transformer for cifar100 with pytorch
 
-##Environment setup 
+## Environment setup 
 ```bash
 pip3 install -r requirements.txt
 ```
