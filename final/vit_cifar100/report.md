@@ -13,15 +13,18 @@ emb_dropout |0.1
 
 
 训练测试集划分:cifar100-train,cifar100-test
-batch_size 128
-learning_rate_initial: 1e-3
-learning_rate_decay: CosineAnnealingLR with eta_min=1e-5
-warmup from 0 to 1e-3 in first epoch
-
-optimzer: Adam with betas=(0.9,0.999) and weight_dacay=5e-5
-epoch  200
-lossfunction  CrossEntropyLoss
-评价指标 top1 error / top5 error
+超参数设置：
+parameter | value
+:---:|:---:
+batch_size |128
+learning_rate_initial| 1e-3
+learning_rate_decay| CosineAnnealingLR with eta_min=1e-5
+warmup |from 0 to 1e-3 in first epoch
+optimzer | Adam with betas=(0.9,0.999)
+weight_dacay | 5e-5
+epoch|200
+lossfunction | CrossEntropyLoss
+评价指标 | top1 error / top5 error
 
 
 ## 结果对比
