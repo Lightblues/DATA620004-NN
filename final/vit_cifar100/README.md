@@ -18,7 +18,7 @@ python train.py -net vit_small -gpu -data_aug mixup
 
 ## Test the model
 ```bash
-python test.py -net vit_small -weights path/to/vit_weights
+python test.py -net vit_small -weights path/to/vit_weights -gpu
 ```
 
 ## Tensorboard
