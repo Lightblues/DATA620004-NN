@@ -13,6 +13,7 @@ emb_dropout |0.1
 
 
 训练测试集划分:cifar100-train,cifar100-test
+
 超参数设置：
 parameter | value
 :---:|:---:
